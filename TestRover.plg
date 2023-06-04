@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestRover - Win32 Simulate--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\hjs\LOCALS~1\Temp\RSP507.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "_SIMULATE" /Fp"TestRover___Win32_Simulate/TestRover.pch" /Yu"stdafx.h" /Fo"TestRover___Win32_Simulate/" /Fd"TestRover___Win32_Simulate/" /FD /GZ /c 
+"D:\tmp\TestRover\myRuntime.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\hjs\LOCALS~1\Temp\RSP507.tmp" 
+Creating temporary file "C:\DOCUME~1\hjs\LOCALS~1\Temp\RSP508.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"TestRover___Win32_Simulate/TestRover.pdb" /debug /machine:I386 /out:"TestRover___Win32_Simulate/TestRover.exe" /pdbtype:sept 
+.\DirectPort.lib
+.\TestRover___Win32_Simulate\ChildFrm.obj
+.\TestRover___Win32_Simulate\Hit405View.obj
+.\TestRover___Win32_Simulate\MainFrm.obj
+.\TestRover___Win32_Simulate\MotorInfoView.obj
+.\TestRover___Win32_Simulate\myRuntime.obj
+.\TestRover___Win32_Simulate\StdAfx.obj
+.\TestRover___Win32_Simulate\TerminalView.obj
+.\TestRover___Win32_Simulate\TestRover.obj
+.\TestRover___Win32_Simulate\TestRover.res
+.\TestRover___Win32_Simulate\TestRoverDoc.obj
+.\TestRover___Win32_Simulate\TestRoverView.obj
+.\TestRover___Win32_Simulate\hit405Dlg.obj
+.\TestRover___Win32_Simulate\Lib.obj
+.\TestRover___Win32_Simulate\Hit6501TestDlg.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\hjs\LOCALS~1\Temp\RSP508.tmp"
+<h3>Output Window</h3>
+Compiling...
+myRuntime.cpp
+D:\tmp\TestRover\myRuntime.cpp(230) : warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+D:\tmp\TestRover\myRuntime.cpp(231) : warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+D:\tmp\TestRover\myRuntime.cpp(238) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+TestRover.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
